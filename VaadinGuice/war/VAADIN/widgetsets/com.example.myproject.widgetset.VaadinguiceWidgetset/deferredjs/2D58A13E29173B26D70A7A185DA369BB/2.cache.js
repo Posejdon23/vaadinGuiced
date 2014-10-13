@@ -1,1 +1,0 @@
-$wnd.com_example_myproject_widgetset_VaadinguiceWidgetset.runAsyncCallback2('Q8(829,1,Xjd);_.vc=function R_b(){fRb((!$Qb&&($Qb=new kRb),$Qb),this.b.e)};yed(Vh)(2);\n//# sourceURL=com.example.myproject.widgetset.VaadinguiceWidgetset-2.js\n')

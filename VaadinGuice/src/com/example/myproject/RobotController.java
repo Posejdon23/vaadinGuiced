@@ -1,29 +1,56 @@
 package com.example.myproject;
+
 import com.google.inject.Inject;
 
 public class RobotController {
 
 	private RobotService robot;
+	private RobotState robotState;
 
 	@Inject
 	public RobotController(RobotService robot) {
 		this.robot = robot;
+		robotState = RobotState.NotLoaded;
 	}
 
-	public String moveForward(int distance) {
-		return robot.moveForward(distance);
+	public void motorForward() {
+		robot.motorForward();
 	}
 
-	public String moveBack(int distance) {
-		return robot.moveBack(distance);
+	public void motorReverse() {
+		robot.motorReverse();
 	}
 
-	public void turnLeft() {
-		robot.turnLeft();
+	public void motorLeft() {
+		robot.motorLeft();
 	}
 
-	public void turnRight() {
-		robot.turnRight();
+	public void motorRight() {
+		robot.motorRight();
 	}
 
+	public void motorStop() {
+		robot.motorStop();
+	}
+
+	public void loadRobot() {
+		robot.loadRobot();
+		robotState = RobotState.Loaded;
+	}
+
+	public void camUp() {
+		robot.camUp();
+	}
+
+	public void camDown() {
+		robot.camDown();
+	}
+
+	public void camLeft() {
+		robot.camLeft();
+	}
+
+	public void camRight() {
+		robot.camRight();
+	}
 }

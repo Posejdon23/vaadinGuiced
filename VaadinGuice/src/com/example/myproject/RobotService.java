@@ -1,10 +1,26 @@
 package com.example.myproject;
+
 public interface RobotService {
-	String moveForward(int distance);
 
-	String moveBack(int distance);
+	public void motorForward();
 
-	void turnLeft();
+	public void motorReverse();
 
-	void turnRight();
+	public void motorLeft();
+
+	public void motorRight();
+
+	public void motorStop();
+
+	// public boolean isMotorLoaded();
+
+	public void loadRobot();
+
+	public void camUp();
+
+	public void camDown();
+
+	public void camLeft();
+
+	public void camRight();
 }

@@ -1,30 +1,48 @@
 package com.example.myproject;
 
-import com.google.inject.Singleton;
+import com.google.inject.servlet.SessionScoped;
 
-@Singleton
+@SessionScoped
 public class RobotServiceImpl implements RobotService {
 
 	@Override
-	public String moveForward(int distance) {
-		System.out.println("Moved forward by " + distance);
-		return "forward " + distance;
+	public void motorForward() {
 	}
 
 	@Override
-	public String moveBack(int distance) {
-		System.out.println("Moved back by " + distance);
-		return "back " + distance;
+	public void motorReverse() {
 	}
 
 	@Override
-	public void turnLeft() {
-		System.out.println("Turned left");
+	public void motorLeft() {
 	}
 
 	@Override
-	public void turnRight() {
-		System.out.println("Turned right");
+	public void motorRight() {
+	}
+
+	@Override
+	public void motorStop() {
+	}
+
+	@Override
+	public void loadRobot() {
+	}
+
+	@Override
+	public void camUp() {
+	}
+
+	@Override
+	public void camDown() {
+	}
+
+	@Override
+	public void camLeft() {
+	}
+
+	@Override
+	public void camRight() {
 	}
 
 }

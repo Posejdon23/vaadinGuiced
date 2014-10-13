@@ -6,7 +6,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry exported="true" kind="con" path="com.google.appengine.eclipse.wtp.GAE_WTP_CONTAINER">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
@@ -18,6 +17,7 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry exported="true" kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=VaadinGuice&amp;ivyXmlPath=ivy.xml&amp;confs=default&amp;ivySettingsPath=%24%7Bworkspace_loc%3AVaadinGuice%2Fivysettings.xml%7D&amp;loadSettingsOnDemand=false&amp;ivyUserDir=&amp;propertyFiles=">
 		<attributes>
@@ -28,5 +28,6 @@
 	<classpathentry exported="true" kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=VaadinGuice&amp;ivyXmlPath=ivy.xml&amp;confs=nodeploy&amp;ivySettingsPath=%24%7Bworkspace_loc%3AVaadinGuice%2Fivysettings.xml%7D&amp;loadSettingsOnDemand=false&amp;ivyUserDir=&amp;propertyFiles="/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Guava"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Mockito"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/PI4J"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
