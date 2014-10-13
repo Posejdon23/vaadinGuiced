@@ -1,9 +1,12 @@
 package com.example.myproject;
 
+import java.io.Serializable;
+
 import com.google.inject.servlet.SessionScoped;
 
+@SuppressWarnings("serial")
 @SessionScoped
-public class RobotServiceImpl implements RobotService {
+public class RobotServiceImpl implements RobotService, Serializable {
 
 	@Override
 	public void motorForward() {

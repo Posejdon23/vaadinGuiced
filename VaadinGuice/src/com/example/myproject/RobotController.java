@@ -7,6 +7,10 @@ public class RobotController {
 	private RobotService robot;
 	private RobotState robotState;
 
+	public RobotState getRobotState() {
+		return robotState;
+	}
+
 	@Inject
 	public RobotController(RobotService robot) {
 		this.robot = robot;

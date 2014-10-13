@@ -6,11 +6,6 @@ import com.google.inject.servlet.ServletModule;
 
 public class RobotModule extends ServletModule {
 
-	// @Override
-	// protected void configure() {
-	//
-	// }
-
 	@Override
 	protected void configureServlets() {
 		bind(RobotService.class).to(RobotServiceImpl.class);
